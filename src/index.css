@@ -5,9 +5,9 @@
     font-family: 'Poppins';
 }
 
-::selection{
+/* ::selection{
     color: yellow
-}
+} */
 
 @utility flex-center{
     display: flex;
