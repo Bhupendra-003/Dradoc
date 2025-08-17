@@ -1,0 +1,21 @@
+@import "tailwindcss";
+@import "@fontsource/poppins";
+
+*{
+    font-family: 'Poppins';
+}
+
+::selection{
+    color: yellow
+}
+
+@utility flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@utility flex-between{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
